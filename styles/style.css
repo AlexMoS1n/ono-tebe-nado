@@ -18,7 +18,6 @@ body {
 }
 
 .header__menu {
-  border: 1px solid black;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -33,9 +32,12 @@ body {
 
 .header__links-list-item {
   list-style-type: circle;
-  font-size: 18px;
   color: #000;
-  font-weight: normal;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .header__links-list-item_no-bullit {
@@ -52,7 +54,6 @@ body {
 
 .header__logo {
   width: 100%;
-  border: 1px solid black;
 }
 
 .header__logo a {
@@ -65,7 +66,6 @@ body {
 }
 
 .address {
-  border: 1px solid black;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -78,18 +78,109 @@ body {
   align-items: flex-start;
   width: 240px;
   line-height: 1.35;
-  font-size: 18px;
   color: #000;
+  font-family: Raleway;
+  font-size: 18px;
   font-style: normal;
+  font-weight: 400;
 }
 
 .header__address address {
   font-style: normal;
 }
 
+
+
 .cover {
+  position: relative;
   background-image: url(../images/cover.jpg);
   background-size: 100% auto;
   background-position: center center;
   background-repeat: no-repeat;
+  padding: 165px 50px 50px;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.6;
+  z-index: 1;
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  }
+
+.cover__title {
+position: relative;
+z-index: 2;
+opacity: 1;
+color: #FFF;
+font-family: Raleway;
+font-size: 100px;
+font-style: normal;
+font-weight: 700;
+line-height: 115%;
+letter-spacing: normal;
+text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  display: block;
+  text-align: center;
+}
+
+.aligned-text_right {
+  display: block;
+  text-align: right;
+}
+
+.no-letter-spacing {
+  letter-spacing: 30px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: flex-end;
+  gap: 78px;
+  padding-top: 135px;
+  align-items: center;
+}
+
+.cover__description-text {
+position: relative;
+z-index: 2;
+color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 127.273% */
+text-transform: uppercase;
+word-spacing: 15px
+}
+
+.bet-button {
+position: relative;
+z-index: 2;
+padding: 12px 32px;
+text-align: center;
+font-family: Raleway;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+background-color: transparent;
+color: #FFF;
+border: 1px solid #FFF;
 }
