@@ -79,7 +79,6 @@ body {
   width: 240px;
   line-height: 1.35;
   color: #000;
-  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -349,4 +348,50 @@ background-color: #fff;
 .footer {
   padding: 0 50px 90px;
   background-color: #FFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__menu {
+  text-align: center;
+}
+
+.footer__menu-list-item {
+  list-style: none;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__menu-link {
+  text-decoration: underline;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  height: 48px;
+}
+
+.footer__social-list-item {
+  list-style: none;
+  height: 100%;
+}
+
+.footer__social-link {
+  height: 100%;
+  display: block;
+  text-decoration: none;
+}
+.footer__social-icon {
+  height: 100%;
+  width: auto;
 }
