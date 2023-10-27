@@ -6,7 +6,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
-  padding: 92px 49px 96px 51px;
+  padding: 92px 49px 92px 51px;
   background-color: #fff;
 }
 
