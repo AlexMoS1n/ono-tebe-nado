@@ -111,22 +111,19 @@ text-transform: uppercase;
 }
 
 .aligned-text {
-  display: block;
   line-height: 115%;
   z-index: 1;
 }
 
 .aligned-text_center {
-  display: block;
   text-align: center;
   line-height: 100%;
   z-index: 1;
 }
 
 .aligned-text_right {
-  line-height: 100%;
-  display: block;
   text-align: right;
+  line-height: 100%;
   z-index: 1;
 }
 
@@ -136,6 +133,10 @@ text-transform: uppercase;
 
 .letter-spacing-extended {
   letter-spacing: 60px;
+}
+
+.aligned-text_right_end_letter {
+  letter-spacing: 0;
 }
 
 .cover__description {
