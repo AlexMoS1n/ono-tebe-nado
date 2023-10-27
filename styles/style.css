@@ -112,19 +112,19 @@ text-transform: uppercase;
 
 .aligned-text {
   display: block;
-  line-height: 100%;
+  line-height: 115%;
   z-index: 1;
 }
 
 .aligned-text_center {
   display: block;
   text-align: center;
-  line-height: 115%;
+  line-height: 100%;
   z-index: 1;
 }
 
 .aligned-text_right {
-  line-height: 115%;
+  line-height: 100%;
   display: block;
   text-align: right;
   z-index: 1;
