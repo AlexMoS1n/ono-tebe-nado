@@ -24,12 +24,12 @@
 }
 
 .header__links-list-item {
+  color: #000;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: normal;
   list-style-type: circle;
-  color: #000;
 }
 
 .header__links-list-item_no-bullit {
@@ -49,8 +49,8 @@
 }
 
 .header__logo a {
-  width: 100%;
   display: block;
+  width: 100%;
 }
 
 .header__logo-image {
@@ -113,22 +113,22 @@ text-transform: uppercase;
 }
 
 .aligned-text {
-  line-height: 115%;
   z-index: 1;
+  line-height: 115%;
 }
 
 .aligned-text_center {
-  text-align: center;
-  line-height: 100%;
   z-index: 1;
+  line-height: 100%;
+  text-align: center;
 }
 
 .aligned-text_right {
+  z-index: 1;
   display: flex;
   justify-content: flex-end;
-  text-align: right;
   line-height: 100%;
-  z-index: 1;
+  text-align: right;
 }
 
 .no-letter-spacing {
@@ -290,8 +290,7 @@ background-color: #fff;
   flex-wrap: wrap;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 25px 8px;
-  column-gap: 25px;
+  gap: 8px 25px;
   width: 100%;
 }
 
