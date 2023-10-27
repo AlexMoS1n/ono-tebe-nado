@@ -24,12 +24,7 @@
 }
 
 .header__links-list-item {
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: normal;
   list-style-type: circle;
-  color: #000;
 }
 
 .header__links-list-item_no-bullit {
@@ -37,6 +32,12 @@
 }
 
 .header__link {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -59,23 +60,22 @@
 
 .address {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.header .address {
+  align-items: flex-end;
 }
 
 .header__address {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
   width: 240px;
+  font-family: Raleway, sans-serif;
   color: #000;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.35;
-}
-
-.header__address address {
   font-style: normal;
 }
 
@@ -104,7 +104,7 @@ display: flex;
 flex-direction: column;
 row-gap: 20px;
 color: #FFF;
-font-family: Raleway;
+font-family: Raleway, sans-serif;
 font-weight: 700;
 font-size: 100px;
 font-style: normal;
@@ -154,7 +154,7 @@ text-transform: uppercase;
 .cover__description-text {
 z-index: 2;
 color: #FFF;
-font-family: Raleway;
+font-family: Raleway, sans-serif;
 font-weight: 400;
 font-size: 22px;
 font-style: normal;
@@ -169,7 +169,7 @@ z-index: 2;
 border: 1px solid #FFF;
 padding: 12px 32px;
 color: #FFF;
-font-family: Raleway;
+font-family: Raleway, sans-serif;
 font-weight: 400;
 font-size: 22px;
 font-style: normal;
@@ -188,7 +188,7 @@ background-color: #fff;
   margin-bottom: 27px;
   margin-left: 40px;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -215,17 +215,6 @@ background-color: #fff;
   text-decoration: none;
 }
 
-.card_type_setting {
-  position: absolute;
-  top:0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
@@ -239,17 +228,19 @@ background-color: #fff;
 }
 
 .card {
-  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
   padding: 50px 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card__title {
   z-index: 2;
   color: #FFF;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 22px;
   font-style: normal;
@@ -262,6 +253,7 @@ background-color: #fff;
   z-index: 2;
   margin-bottom: 0;
   color: #FFF;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -272,6 +264,7 @@ background-color: #fff;
   display: block;
   margin-top: 30px;
   margin-left: 40px;
+  font-family: Raleway, sans-serif;
   color: #000;
   font-weight: 400;
   font-size: 20px;
@@ -321,6 +314,7 @@ background-color: #fff;
   grid-row-end: 2;
   justify-self: start;
   align-self: center;
+  font-family: Raleway, sans-serif;
   color: #000;
   font-weight: 700;
   font-size: 40px;
@@ -340,6 +334,7 @@ background-color: #fff;
 }
 
 .about__text p {
+  font-family: Raleway, sans-serif;
   color: #000;
   font-weight: 400;
   font-size: 20px;
@@ -354,21 +349,36 @@ background-color: #fff;
   background-color: #FFF;
 }
 
+.footer .address {
+  align-items: flex-start;
+}
+
+.footer__address {
+  width: 240px;
+  font-family: Raleway, sans-serif;
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.35;
+  font-style: normal;
+}
+
 .footer__menu {
   text-align: center;
 }
 
 .footer__menu-list-item {
-  color: #000;
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: normal;
   text-align: center;
   list-style: none;
 }
 
 .footer__menu-link {
+  font-family: Raleway, sans-serif;
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
   text-decoration: underline;
 }
 
@@ -380,21 +390,18 @@ background-color: #fff;
   display: flex;
   justify-content: space-between;
   width: 240px;
-  height: 48px;
 }
 
 .footer__social-list-item {
-  height: 100%;
   list-style: none;
 }
 
 .footer__social-link {
   display: block;
-  height: 100%;
   text-decoration: none;
 }
 
 .footer__social-icon {
   width: auto;
-  height: 100%;
+  height: 48px;
 }
