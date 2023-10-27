@@ -6,7 +6,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
-  padding: 92px 49px 92px 51px;
+  padding: 92px 49px 96px 51px;
   background-color: #fff;
 }
 
@@ -110,21 +110,23 @@ font-family: Raleway;
 font-weight: 700;
 font-size: 100px;
 font-style: normal;
-line-height: 115%;
 letter-spacing: normal;
 text-transform: uppercase;
 }
 
 .aligned-text {
   display: block;
+  line-height: 115%
 }
 
 .aligned-text_center {
   display: block;
   text-align: center;
+  line-height: 100%
 }
 
 .aligned-text_right {
+  line-height: 100%;
   display: block;
   text-align: right;
 }
