@@ -32,12 +32,12 @@
 }
 
 .header__link {
+  color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: normal;
-  color: #000;
   text-decoration: underline;
 }
 
@@ -71,12 +71,12 @@
 
 .header__address {
   width: 240px;
-  font-family: Raleway, sans-serif;
   color: #000;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.35;
   font-style: normal;
+  line-height: 1.35;
 }
 
 .cover {
@@ -97,7 +97,7 @@
   height: 100%;
   opacity: 0.6;
   background-color: #000;
-  }
+}
 
 .cover__title {
 display: flex;
@@ -264,8 +264,8 @@ background-color: #fff;
   display: block;
   margin-top: 30px;
   margin-left: 40px;
-  font-family: Raleway, sans-serif;
   color: #000;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -314,8 +314,8 @@ background-color: #fff;
   grid-row-end: 2;
   justify-self: start;
   align-self: center;
-  font-family: Raleway, sans-serif;
   color: #000;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -334,8 +334,8 @@ background-color: #fff;
 }
 
 .about__text p {
-  font-family: Raleway, sans-serif;
   color: #000;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -355,12 +355,12 @@ background-color: #fff;
 
 .footer__address {
   width: 240px;
-  font-family: Raleway, sans-serif;
   color: #000;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.35;
   font-style: normal;
+  line-height: 1.35;
 }
 
 .footer__menu {
@@ -373,8 +373,8 @@ background-color: #fff;
 }
 
 .footer__menu-link {
-  font-family: Raleway, sans-serif;
   color: #000;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
