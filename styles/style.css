@@ -50,8 +50,8 @@
 }
 
 .header__logo a {
-  display: block;
   width: 100%;
+  display: block;
 }
 
 .header__logo-image {
