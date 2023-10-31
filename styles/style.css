@@ -20,7 +20,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  column-gap: 31px;
+  column-gap: 30px;
 }
 
 .header__links-list-item {
