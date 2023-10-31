@@ -20,7 +20,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  column-gap: 32px;
+  column-gap: 30px;
 }
 
 .header__links-list-item {
@@ -73,7 +73,7 @@
 }
 
 .header__address {
-  width: 240px;
+  width: 241px;
   color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 400;
@@ -359,7 +359,7 @@
 }
 
 .footer__address {
-  width: 240px;
+  width: 241px;
   color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 400;
