@@ -117,12 +117,14 @@
 .aligned-text {
   z-index: 1;
   line-height: 115%;
+  word-spacing: 6px;
 }
 
 .aligned-text_center {
   z-index: 1;
   line-height: 100%;
   text-align: center;
+  word-spacing: 6px;
 }
 
 .aligned-text_right {
@@ -160,10 +162,10 @@
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
-  line-height: 28px; /* 127.273% */
+  line-height: 28px; 
   text-align: center;
   text-transform: uppercase;
-  word-spacing: 15px;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -234,7 +236,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 50px 40px;
+  padding: 50px 40px 50px 40px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -273,10 +275,11 @@
   font-style: normal;
   line-height: normal;
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .about {
-  padding: 182px 50px 180px;
+  padding: 183px 50px 180px;
   background-color: #fff;
 }
 
@@ -284,7 +287,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 8px 25px;
+  gap: 4px 25px;
   width: 100%;
 }
 
@@ -362,6 +365,7 @@
   font-size: 18px;
   font-style: normal;
   line-height: 1.35;
+  text-underline-offset: 5px;
 }
 
 .footer__menu {
@@ -381,6 +385,7 @@
   font-style: normal;
   line-height: normal;
   text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .footer__menu-link_active {
