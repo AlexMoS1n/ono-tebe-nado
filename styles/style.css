@@ -82,7 +82,7 @@
 
 .cover {
   position: relative;
-  padding: 165px 50px 50px 40px;
+  padding: 165px 50px 50px 52px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -149,7 +149,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  column-gap: 76px;
+  column-gap: 77px;
   padding-top: 135px;
 }
 
