@@ -5,7 +5,8 @@
 
 .header {
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
   justify-content: space-between;
   padding: 92px 49px 92px 51px;
   background-color: #fff;
@@ -48,7 +49,7 @@
 }
 
 .header__logo {
-  width: 148px;
+  width: 100%;
 }
 
 .header__logo a {
@@ -62,8 +63,16 @@
 
 .address {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
+}
+
+.header__address {
+  align-items: flex-end;
+}
+
+.address-link {
   width: 241px;
   color: #000;
   font-family: Raleway, sans-serif;
@@ -71,11 +80,6 @@
   font-size: 18px;
   font-style: normal;
   line-height: 1.35;
-  align-items: flex-start;
-}
-
-.address-link {
-  text-underline-offset: 4px;
 }
 
 .cover {
@@ -343,10 +347,15 @@
 }
 
 .footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   padding: 0 50px 90px;
   background-color: #fff;
+}
+
+.footer__address {
+  align-items: flex-start;
 }
 
 .footer__menu {
@@ -375,8 +384,8 @@
 
 .footer__social-list {
   display: flex;
-  justify-content: space-between;
-  width: 240px;
+  justify-content: flex-end;
+  column-gap: 48px;
 }
 
 .footer__social-list-item {
