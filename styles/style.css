@@ -80,6 +80,7 @@
   font-size: 18px;
   font-style: normal;
   line-height: 1.35;
+  text-underline-offset: 4px;
 }
 
 .cover {
