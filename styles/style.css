@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .content-section {
   max-width: 1440px;
   margin: auto;
@@ -76,13 +80,18 @@
   line-height: 1.35;
   text-underline-offset: 4px;
 }
+.main {
+  background-color: #fff;
+}
 
 .cover {
+  width: 100%;
   position: relative;
   padding: 165px 50px 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 180px;
 }
 
 .overlay {
@@ -179,8 +188,10 @@
 }
 
 .lots {
-  padding: 180px 50px 0;
+  width: 100%;
+  padding: 0 50px 0;
   background-color: #fff;
+  margin-bottom: 183px;
 }
 
 .lots__heading {
@@ -277,8 +288,10 @@
 }
 
 .about {
-  padding: 183px 50px 180px;
+  width: 100%;
+  padding: 0 50px 0;
   background-color: #fff;
+  padding-bottom: 180px;
 }
 
 .about__column {
